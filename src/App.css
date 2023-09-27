@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c0c0c0;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.logo {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 20px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.home {
+  padding: 20px;
+  text-align: center;
+}
+
+.retro-bg {
+  background-color: #ffd700;
+  border: 1px solid #000;
+}
+
+.title {
+  font-size: 32px;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
+.title {
+  font-size: 32px;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  text-align: center; /* Center the text */
+  margin-bottom: 10px; /* Add some spacing */
+}
+
+.subtitle {
+  font-size: 18px;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  text-align: center; /* Center the text */
+  margin-bottom: 20px; /* Add some spacing */
+}
+
+.about {
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
